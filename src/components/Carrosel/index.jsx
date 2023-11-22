@@ -31,23 +31,23 @@ export function Carrosel() {
     <Container>
       <Slider ref={sliderRef} {...settings}>
         <ImageContainer>
-          <Image src="/src/assets/images/feature1.png" />
+          <Image src="public/images/feature1.png" />
           <p>GO ON AN ADVENTURE</p>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/src/assets/images/feature2.png" />
+          <Image src="public/images/feature2.png" />
           <p>BATTLE AND CAPTURE</p>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/src/assets/images/feature3.png" />
+          <Image src="public/images/feature3.png" />
           <p>COLLECT ALL PORBLES</p>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/src/assets/images/feature4.png" />
+          <Image src="public/images/feature4.png" />
           <p>OPTIMIZE YOUR TEAM</p>
         </ImageContainer>
         <ImageContainer>
-          <Image src="/src/assets/images/feature5.png" />
+          <Image src="public/images/feature5.png" />
           <p>CREATE YOUR WORLD</p>
         </ImageContainer>
       </Slider>

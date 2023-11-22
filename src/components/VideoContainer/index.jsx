@@ -8,9 +8,9 @@ export function VideoContainer() {
         loop
         muted
         playsInline
-        src="./src/assets/videos/mainvideo.mp4"
+        src="public/videos/mainvideo.mp4"
       />
-      <img src="./src/assets/images/bottomlayer.png" />
+      <img src="public/images/bottomlayer.png" />
     </Container>
   )
 }

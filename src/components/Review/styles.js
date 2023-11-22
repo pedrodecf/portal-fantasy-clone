@@ -30,7 +30,7 @@ export const Container = styled.div`
 
     &::after {
       content: "";
-      background-image: url("/src/assets/images/review-background.jpg");
+      background-image: url("public/images/review-background.jpg");
       background-size: cover;
       position: absolute;
       top: 0;

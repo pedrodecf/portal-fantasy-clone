@@ -6,7 +6,7 @@ import { Button } from "../Button"
 export function Header() {
   return (
     <Container>
-      <img src="/src/assets/images/logo.png" alt="Logo Portal Fantasy" />
+      <img src="public/images/logo.png" alt="Logo Portal Fantasy" />
       <nav>
         <a href="#" target="_blank">
           Media

@@ -21,7 +21,7 @@ export const Container = styled.div`
 
     &::after {
       content: "";
-      background-image: url("/src/assets/images/feature-background.jpg");
+      background-image: url("public/images/feature-background.jpg");
       background-size: cover;
       position: absolute;
       top: 0;

@@ -24,7 +24,7 @@ export const Container = styled.div`
 
     &::after {
       content: "";
-      background-image: url("/src/assets/images/cat-background.jpg");
+      background-image: url("public/images/cat-background.jpg");
       background-size: cover;
       position: absolute;
       top: 0;

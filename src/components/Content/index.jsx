@@ -7,7 +7,7 @@ export function Content() {
     <ContentContainer>
       <Container>
         <div className="img-container">
-          <img src="/src/assets/images/black-cat-background.png" />
+          <img src="public/images/black-cat-background.png" />
         </div>
         <div className="info">
           <div className="text-container">
@@ -32,7 +32,7 @@ export function Content() {
             </div>
           </div>
 
-          <img src="/src/assets/images/cat.png" alt="Ilustração de um gato" />
+          <img src="public/images/cat.png" alt="Ilustração de um gato" />
         </div>
       </Container>
     </ContentContainer>

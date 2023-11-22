@@ -73,30 +73,30 @@ export function Heroes() {
       <HeroesImgContainer>
         <img
           id="kal"
-          src="/src/assets/images/hero1.jpg"
+          src="public/images/hero1.jpg"
           alt="Kal"
-          className={kalImgClass ? "" : "not-selected"} 
+          className={kalImgClass ? "" : "not-selected"}
           onClick={changeHeroInfoToKal}
         />
         <img
           id="tanja"
-          src="/src/assets/images/hero2.jpg"
+          src="public/images/hero2.jpg"
           alt="Tanja"
-          className={tanjaImgClass ? "" : "not-selected"} 
+          className={tanjaImgClass ? "" : "not-selected"}
           onClick={changeHeroInfoToTanja}
         />
         <img
           id="daniel"
-          src="/src/assets/images/hero3.jpg"
+          src="public/images/hero3.jpg"
           alt="Daniel"
-          className={danielImgClass ? "" : "not-selected"} 
+          className={danielImgClass ? "" : "not-selected"}
           onClick={changeHeroInfoToDaniel}
         />
         <img
           id="angelica"
-          src="/src/assets/images/hero4.jpg"
+          src="public/images/hero4.jpg"
           alt="Angelica"
-          className={angelicaImgClass ? "" : "not-selected"} 
+          className={angelicaImgClass ? "" : "not-selected"}
           onClick={changeHeroInfoToAngelica}
         />
       </HeroesImgContainer>
@@ -113,7 +113,7 @@ export function Heroes() {
             {heroDislike}
           </p>
         </InfoHeroesText>
-        <InfoHeroesImg src={`/src/assets/images/${heroFullBodyImg}.png`} />
+        <InfoHeroesImg src={`public/images/${heroFullBodyImg}.png`} />
       </InfoHeroes>
     </Container>
   )
