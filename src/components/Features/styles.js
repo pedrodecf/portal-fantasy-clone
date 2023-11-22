@@ -1,7 +1,7 @@
 import styled from "styled-components"
-import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import featurabackground from "/public/images/feature-background.jpg"
 
 export const Container = styled.div`
   height: 100vh;
@@ -21,7 +21,7 @@ export const Container = styled.div`
 
     &::after {
       content: "";
-      background-image: url("public/images/feature-background.jpg");
+      background-image: url(${featurabackground});
       background-size: cover;
       position: absolute;
       top: 0;

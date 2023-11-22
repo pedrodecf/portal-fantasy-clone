@@ -1,16 +1,12 @@
 import { Container } from "./styles"
+import mainvideo from "/public/videos/mainvideo.mp4"
+import bottomlayer from "/public/images/bottomlayer.png"
 
 export function VideoContainer() {
   return (
     <Container>
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        src="public/videos/mainvideo.mp4"
-      />
-      <img src="public/images/bottomlayer.png" />
+      <video autoPlay loop muted playsInline src={mainvideo} />
+      <img src={bottomlayer} />
     </Container>
   )
 }

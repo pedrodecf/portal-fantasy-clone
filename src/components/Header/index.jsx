@@ -1,12 +1,13 @@
 import { Container } from "./styles"
 import { FaDiscord, FaTwitter } from "react-icons/fa"
 import { Button } from "../Button"
+import logo from "/public/images/logo.png"
 
 
 export function Header() {
   return (
     <Container>
-      <img src="public/images/logo.png" alt="Logo Portal Fantasy" />
+      <img src={logo} alt="Logo Portal Fantasy" />
       <nav>
         <a href="#" target="_blank">
           Media

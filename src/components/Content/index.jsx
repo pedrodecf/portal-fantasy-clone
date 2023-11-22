@@ -1,13 +1,15 @@
 import { Container, ContentContainer } from "./styles"
 import { ButtonWhite } from "../ButtonWhite"
 import { Button } from "../Button"
+import blackcatbackground from "/public/images/black-cat-background.png"
+import cat from "/public/images/cat.png"
 
 export function Content() {
   return (
     <ContentContainer>
       <Container>
         <div className="img-container">
-          <img src="public/images/black-cat-background.png" />
+          <img src={blackcatbackground} />
         </div>
         <div className="info">
           <div className="text-container">
@@ -32,7 +34,7 @@ export function Content() {
             </div>
           </div>
 
-          <img src="public/images/cat.png" alt="Ilustração de um gato" />
+          <img src={cat} alt="Ilustração de um gato" />
         </div>
       </Container>
     </ContentContainer>

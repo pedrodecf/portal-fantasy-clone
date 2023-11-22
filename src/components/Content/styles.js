@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import catbackground from "/public/images/cat-background.jpg"
 
 export const ContentContainer = styled.div`
   height: 100vh;
@@ -24,7 +25,7 @@ export const Container = styled.div`
 
     &::after {
       content: "";
-      background-image: url("public/images/cat-background.jpg");
+      background-image: url(${catbackground});
       background-size: cover;
       position: absolute;
       top: 0;

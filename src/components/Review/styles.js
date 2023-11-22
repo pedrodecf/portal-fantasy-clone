@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import reviewbackground from "/public/images/review-background.jpg"
 
 export const Container = styled.div`
   height: 100vh;
@@ -30,7 +31,7 @@ export const Container = styled.div`
 
     &::after {
       content: "";
-      background-image: url("public/images/review-background.jpg");
+      background-image: url(${reviewbackground});
       background-size: cover;
       position: absolute;
       top: 0;
