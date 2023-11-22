@@ -1,7 +1,7 @@
-# Clone do Layout do Portal Fantasy
-Este projeto é um clone do layout do site [portalfantasy.io](https://portalfantasy.io), desenvolvido utilizando React e Styled Components.
+# Clone do Site Portal Fantasy
+Este projeto é um clone do site [portalfantasy.io](https://portalfantasy.io), desenvolvido utilizando React e Styled Components.
 
-A aplicação estará disponível em [https://portal-fantasy-clone.vercel.app](https://portal-fantasy-clone.vercel.app).
+A aplicação está disponível em [https://portal-fantasy-clone.vercel.app](https://portal-fantasy-clone.vercel.app).
 
 ## Tecnologias Utilizadas
 * **React**: O framework JavaScript utilizado para construir a aplicação de forma eficiente e modular.
